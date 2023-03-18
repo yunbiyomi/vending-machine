@@ -1,0 +1,65 @@
+/* layout */
+
+.money-container {
+    grid-area: a;
+    width: 200px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+}
+
+.out-money-btn {
+    grid-area: b;
+}
+
+#in-money {
+    grid-area: c;
+    padding: 6px;
+}
+
+.in-money-btn {
+    grid-area: d;
+}
+
+.drink-list {
+    grid-area: e;
+}
+
+.get-btn {
+    grid-area: f;
+    height: 94px;
+}
+
+/* style */
+
+.form-wrap * {
+    border-radius: 4px;
+}
+
+.money-container {
+    background: #eae8fe;
+}
+
+[class$="-btn"] {
+    width: 94px;
+    box-shadow: 0px 0 4px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    font-size: 13px;
+    color: #000;
+}
+
+#in-money {
+    background: #fff;
+    color: #BDBDBD;
+    border: 1px solid #BDBDBD;
+}
+
+.drink-list {
+    background: #eae8fe;
+}
+
+.get-btn {
+    background: #6327FE;
+    color:#fff
+}

@@ -1,0 +1,55 @@
+/* layout */
+.get-drink-box{
+    width: 306px;
+    height: 364px;
+    padding: 12px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.drink-list-box {
+    width: 276px;
+    height: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+}
+
+.drink-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.drink-list-img {
+    width: 18px;
+}
+
+.drink-count {
+    width: 30px;
+}
+
+
+/* style */
+.get-drink-box{
+    background: #eae8fe;
+    border-radius: 4px;
+    border: 1px solid #DBDBDB;
+}
+
+.drink-list-box {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.drink-count {
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    border-radius: 4px;
+}

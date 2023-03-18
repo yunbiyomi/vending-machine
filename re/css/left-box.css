@@ -1,0 +1,33 @@
+/* layout */
+.drink-wrap {
+    width: 360px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.form-wrap {
+    margin: 0 auto;
+    width: 306px;
+    display: grid;
+    grid-template-areas: 
+    "a b"
+    "c d"
+    "e f";
+    gap: 12px;
+}
+
+.main-container {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 31px 0 28px 0;
+}
+
+/* style */
+
+.main-container {
+    background: #FFF;
+}

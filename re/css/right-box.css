@@ -1,0 +1,57 @@
+/* layout */
+.have-money {
+    width: 360px;
+    padding: 9px 0;
+    margin-bottom: 20px;
+}
+
+.have-money .money-container {
+    width: 306px;
+    margin: 0 auto;
+}
+
+.get-drink-container {
+    box-sizing: border-box;
+    width: 360px;
+    height: 474px;
+    padding-top: 25px;
+}
+
+.get-drink-title {
+    width: 360px;
+    margin: 0 0 13px 0;
+}
+
+.total-money {
+    float: right;
+    margin: 6px 27px 26px 0;
+}
+
+/* style */
+
+.have-money {
+    background: #fff;
+}
+
+.have-money .money-container {
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.have-money .money-container span:nth-child(2) {
+    font-weight: 700;
+}
+
+.get-drink-container {
+    background-color: #fff;
+}
+
+.get-drink-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.total-money {
+    font-size: 12px;
+}
