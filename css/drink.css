@@ -21,7 +21,7 @@
 /* style */
 .drink {
     background-color: #FFF;
-    box-shadow: 0px 0 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
     border: 3px solid transparent;
     border-radius: 9px;
 }
@@ -54,7 +54,7 @@
     position: absolute;
     background: #000000CC;
     width: 100px;
-    height: 139px;
+    height: 140px;
     border-radius: 9px ;
 }
 
@@ -65,6 +65,6 @@
     text-align: center;
     color: #EAE8FE;
     font-weight: 900;
-    /* border: 2px solid #EAE8FE; */
-    box-shadow: 2px 1 10px #EAE8FE;
+    border: 5px double #EAE8FE;
+    rotate: -15deg;
 }
