@@ -28,8 +28,19 @@
 
 .get-btn {
     grid-area: f;
-    height: 94px;
+    height: 106px;
 }
+
+.drink-list .get-drink-box {
+    width: 200px;
+    height: 106px;
+}
+
+.drink-list .drink-list-box {
+    width: 170px;
+    height: 46px;
+}
+
 
 /* style */
 

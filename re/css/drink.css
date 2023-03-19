@@ -21,8 +21,13 @@
 /* style */
 .drink {
     background-color: #FFF;
-    border: 3px solid #6327FE;
+    box-shadow: 0px 0 4px rgba(0, 0, 0, 0.4);
+    border: 3px solid transparent;
     border-radius: 9px;
+}
+
+.drink:active {
+    border: 3px solid #6327FE;
 }
 
 .drink-name {
@@ -39,4 +44,27 @@
 .drink-money span {
     font-size: 12px;
     color: #FFF;
+}
+
+.sold-out {
+    position: relative;
+}
+
+.sold-out-bg {
+    position: absolute;
+    background: #000000CC;
+    width: 100px;
+    height: 139px;
+    border-radius: 9px ;
+}
+
+.sold-out-logo {
+    position: absolute;
+    width: 45px;
+    height: 21px;
+    text-align: center;
+    color: #EAE8FE;
+    font-weight: 900;
+    /* border: 2px solid #EAE8FE; */
+    box-shadow: 2px 1 10px #EAE8FE;
 }

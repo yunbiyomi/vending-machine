@@ -1,0 +1,13 @@
+.get-drink-box::-webkit-scrollbar {
+    width: 4px;  /* 스크롤바의 너비 */
+}
+
+.get-drink-box::-webkit-scrollbar-thumb {
+    height: 79px; /* 스크롤바의 길이 */
+    background: #FFF; /* 스크롤바의 색상 */
+    border-radius: 2px;
+}
+
+.get-drink-box::-webkit-scrollbar-track {
+    background: none;  /*스크롤바 뒷 배경 색상*/
+}
