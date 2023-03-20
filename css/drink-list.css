@@ -2,7 +2,7 @@
 .get-drink-box{
     width: 306px;
     height: 364px;
-    padding: 12px;
+    padding: 12px 0px 12px 12px;
     margin: 0 auto;
     box-sizing: border-box;
 }
